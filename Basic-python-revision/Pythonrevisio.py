@@ -44,3 +44,10 @@ if st.session_state.todos:
             save_todos()
         with col2:
             st.write(todo["task"])
+else:
+    st.write("No tasks yet! Add a task to get started.")
+
+def delete_completed():
+    st.session_state.todos = [todo for todo in st.session_state.todos if not todo["completed"]]
+    save_todos()
+st.button("Delete Completed Tasks", on_click=delete_completed)
