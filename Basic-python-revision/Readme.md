@@ -1,6 +1,6 @@
 # 📝 Streamlit To-Do App
 
-A simple To-Do application built with **Python and Streamlit** as part of my learning journey.
+A simple To-Do application built with **Python and Streamlit** as part of my learning journey,before that i had practiced some of list, dictionaries and sets concepts in python you can also view them
 
 ---
 
